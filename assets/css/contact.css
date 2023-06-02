@@ -1,0 +1,61 @@
+.contato-banner-in{
+  margin-bottom: 70px;
+  height: 250px;
+  max-width: 100%;
+  background: url(../images/contato.png);
+}
+
+.contato-banner-in > .container{
+  height: 80%;
+  align-items:flex-end;
+  text-transform: uppercase;
+}
+
+
+.contato{
+  gap: 30px;
+}
+
+form{
+  margin-bottom: 30px;
+}
+
+input[type=text], input[type=email]{
+  min-width: 300px;
+  margin-bottom: 10px;
+  border: 1px solid var(--black);
+  height: 20px;
+ }
+
+label{
+  font-weight: bold;
+}
+
+ input[type=text]:focus {
+  border: 5px solid var(--bronze);
+}
+
+#enviar{
+  font:var(--btn);
+  letter-spacing: 3.7px;
+  font-weight: bold;
+  cursor: pointer;
+  background: var(--black);
+  padding: 0px 20px;
+  height: 50px;
+  color: var(--white);
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+#enviar:hover{
+  background-color: var(--bronze);
+}
+
+.autenticar{
+  font-size: 13px;
+}
+
+.cont-row{
+  max-width: 50%;
+}

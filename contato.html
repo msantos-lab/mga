@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./assets/css/contact.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+
+  <title>Modern Art Gallery - Exposições</title>
+</head>
+
+<body>
+  <header class="head">
+    <div class="container flex">
+      <div class="logo">
+        <a href="./index.html"><img src="./assets/images/logo.svg" alt="Logo Art Gallery"></a>
+      </div>
+      <nav class="nav-menu flex">
+        <button class="menu-toggle" data-menu="button" aria-expanded="false" aria-controls="menu"></button>
+        <ul class="menu flex" data-menu="list" id="menu">
+          <li><a href="./sobre.html">Sobre</a></li>
+          <li><a href="./exposicoes.html">Exposições</a></li>
+          <li><a href="./contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contato-banner-in">
+    <div class="container flex">
+      <h1>Contato</h1>
+    </div>
+  </main>
+
+  <section class="">
+    <div class="container">
+
+      <div class="contato flex">
+
+        <div class="cont-row">
+          <h2>Formulário de Contato</h2>
+          <p>Se você tiver alguma dúvida ou precisar entrar em contato conosco por qualquer motivo, por favor, preencha
+            o formulário abaixo.</p>
+
+
+          <form action="">
+            <div>
+              <label for="nome">Nome:*</label><br>
+              <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div>
+              <label for="email">Email:*</label><br>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+            <div>
+              <label for="mensagem">Mensagem:*</label><br>
+              <textarea id="mensagem" name="mensagem" rows="10" cols="40" required></textarea>
+            </div>
+
+            <div>
+              <input type="button" value="Enviar" id="enviar">
+            </div>
+          </form>
+          <span class="autenticar">A Modern Art Gallery não pode autenticar ou fornecer avaliações sobre arte.</span>
+
+        </div>
+
+        <div class="cont-row">
+          <div class="col-2-right grid">
+            <h2>Horário de Funcionamento</h2>
+            <p>O museu está aberto de terça a domingo, das 8h às 21h. </p>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1777.3038270227792!2d-71.31180523156215!3d41.481367545946256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5af5d9ad9f351%3A0x9bf38f9aed123934!2s99%20King%20St%2C%20Newport%2C%20RI%2002840%2C%20EUA!5e0!3m2!1spt-PT!2spt!4v1680274424813!5m2!1spt-PT!2spt"
+              width="100%" height="450" style="border:0;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <footer class="footer">
+    <div class="container flex">
+      <div class="logo-footer">
+        <a href="./index.html"><img src="./assets/images/logo.svg" alt="Logo" width="160" height="58"></a>
+      </div>
+      <div class="copy">
+        <p>A Galeria de Arte Moderna é gratuita para todos os visitantes e abre sete dias por semana, das 8h às 21h.</p>
+        <p>King Street, Newport, USA.</p>
+      </div>
+      <div class="sociais-footer">
+        <ul class="sociais flex">
+          <li><a href="#"><img src="./assets/images/icon-facebook.svg" alt="Facebook"></a></li>
+          <li>
+            <a href="#"><img src="./assets/images/icon-instagram.svg" alt="Instagram"></a>
+          </li>
+          <li>
+            <a href="#"><img src="./assets/images/icon-twitter.svg" alt="Twitter"></a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
