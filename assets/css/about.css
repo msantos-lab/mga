@@ -1,29 +1,29 @@
-.about{
+.about {
   margin-top: 70px;
 }
 
-.about-banner-in{
+.about-banner-in {
   margin-bottom: 30px;
   height: 250px;
   max-width: 100%;
   background: url(../images/about/banner-about.png);
 }
 
-.about-banner-in > .container{
+.about-banner-in > .container {
   height: 80%;
-  align-items:flex-end;
+  align-items: flex-end;
   text-transform: uppercase;
   color: #fff;
 }
 
-
-.about-row-1, .row-2 {
+.about-row-1,
+.row-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
 
-.about-row-1-left h2{
+.about-row-1-left h2 {
   font: var(--heading-m);
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -35,11 +35,11 @@
   gap: 30px;
 }
 
-.about-row-2 img{
+.about-row-2 img {
   max-width: 100%;
 }
 
-.about-row-3{
+.about-row-3 {
   font-size: 32px;
   font-weight: bold;
   line-height: 1.2;
@@ -48,8 +48,7 @@
   justify-content: center;
 }
 
-
-.cite{
+.cite {
   max-width: 60%;
   font-style: italic;
   border-top: 1px solid #e0e0e0;
@@ -57,20 +56,16 @@
   padding: 20px 0;
 }
 
-.cite p{
+.cite p {
   font-size: 1rem;
   font-style: normal;
   margin-top: 10px;
   color: var(--gray-light);
 }
 
-
 @media screen and (max-width: 500px) {
-  .about-row-2{
+  .about-row-2 {
     flex-direction: column;
     align-items: center;
   }
-
 }
-
-

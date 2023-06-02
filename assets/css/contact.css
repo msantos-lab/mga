@@ -1,42 +1,42 @@
-.contato-banner-in{
+.contato-banner-in {
   margin-bottom: 70px;
   height: 250px;
   max-width: 100%;
   background: url(../images/contato.png);
 }
 
-.contato-banner-in > .container{
+.contato-banner-in > .container {
   height: 80%;
-  align-items:flex-end;
+  align-items: flex-end;
   text-transform: uppercase;
 }
 
-
-.contato{
+.contato {
   gap: 30px;
 }
 
-form{
+form {
   margin-bottom: 30px;
 }
 
-input[type=text], input[type=email]{
+input[type="text"],
+input[type="email"] {
   min-width: 300px;
   margin-bottom: 10px;
   border: 1px solid var(--black);
   height: 20px;
- }
+}
 
-label{
+label {
   font-weight: bold;
 }
 
- input[type=text]:focus {
+input[type="text"]:focus {
   border: 5px solid var(--bronze);
 }
 
-#enviar{
-  font:var(--btn);
+#enviar {
+  font: var(--btn);
   letter-spacing: 3.7px;
   font-weight: bold;
   cursor: pointer;
@@ -48,14 +48,14 @@ label{
   border: 1px solid transparent;
 }
 
-#enviar:hover{
+#enviar:hover {
   background-color: var(--bronze);
 }
 
-.autenticar{
+.autenticar {
   font-size: 13px;
 }
 
-.cont-row{
+.cont-row {
   max-width: 50%;
 }

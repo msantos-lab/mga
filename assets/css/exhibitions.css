@@ -5,7 +5,7 @@
   background: url(../images/exhibitions/banner_exib.png);
 }
 
-.exh-banner-in>.container {
+.exh-banner-in > .container {
   height: 80%;
   align-items: flex-end;
   text-transform: uppercase;
@@ -39,10 +39,9 @@
   margin-top: -2px;
 }
 
-
 /*-------------------- exhibitions-detail -------------------- */
 
-.exhibitions-detail>.grid {
+.exhibitions-detail > .grid {
   gap: 30px;
 }
 
@@ -51,10 +50,9 @@
   font: var(--body-s);
 }
 
-.ed-content>.artwork-date {
+.ed-content > .artwork-date {
   font-weight: bolder;
 }
-
 
 .ed-row-1,
 .ed-row-2 {
@@ -75,7 +73,6 @@
   align-content: space-between;
 }
 
-
 figure {
   margin: 0;
   padding: 0;
@@ -91,24 +88,13 @@ figure img {
   max-width: 100%;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .ed-row-1, .ed-row-2 {
-    grid-template-columns: 1fr 1fr;
-  }
-} */
-
-
 @media screen and (max-width: 800px) {
-
   .ed-row-1,
   .ed-row-2 {
     grid-template-columns: 1fr;
-
   }
 
   .ed-row-1-left {
     gap: 30px;
   }
-
 }
-

@@ -4,15 +4,15 @@
   --gray: #444;
   --gray-light: #848484;
   --white: #fff;
-  --heading-xl: 6rem/5.5rem 'Big Shoulders Display', cursive;
-  --heading-l: 4.375rem/4.375rem 'Big Shoulders Display', cursive;
+  --heading-xl: 6rem/5.5rem "Big Shoulders Display", cursive;
+  --heading-l: 4.375rem/4.375rem "Big Shoulders Display", cursive;
   /* 70 */
-  --heading-m: 3.75rem/3.75rem 'Big Shoulders Display', cursive;
-  --body-m: 1.375rem/2rem 'Outfit', sans-serif;
+  --heading-m: 3.75rem/3.75rem "Big Shoulders Display", cursive;
+  --body-m: 1.375rem/2rem "Outfit", sans-serif;
   /* 22 */
-  --body-s: 1.125rem/1.75rem 'Outfit', sans-serif;
+  --body-s: 1.125rem/1.75rem "Outfit", sans-serif;
   /* 20px */
-  --btn: bold 1rem/1.75rem 'Big Shoulders Display', cursive;
+  --btn: bold 1rem/1.75rem "Big Shoulders Display", cursive;
   /* 20px */
 }
 
@@ -20,7 +20,7 @@ body {
   padding: 0;
   margin: 0;
   color: var(--black);
-  font: 1.125rem/1.75rem 'Outfit', sans-serif;
+  font: 1.125rem/1.75rem "Outfit", sans-serif;
   /* 20px */
 }
 
@@ -40,7 +40,7 @@ img {
   display: block;
 }
 
-ul>li {
+ul > li {
   list-style: none;
 }
 
@@ -55,8 +55,6 @@ ul>li {
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  /* background-color: blanchedalmond;
-  */
 }
 
 .head {
@@ -65,7 +63,7 @@ ul>li {
   padding: 20px 0;
 }
 
-.head>.flex {
+.head > .flex {
   justify-content: space-between;
   align-items: center;
 }
@@ -80,7 +78,7 @@ ul>li {
 }
 
 .menu li a {
-  font: 1.25rem/1rem 'Outfit', sans-serif;
+  font: 1.25rem/1rem "Outfit", sans-serif;
   text-align: center;
   color: #eee2da;
 }
@@ -122,10 +120,9 @@ ul>li {
   display: none;
 }
 
-
 /*-------------------- BANNER HOME -------------------- */
 .banner {
-  background: linear-gradient(to right, var(--black) 50%, #FFF 50%);
+  background: linear-gradient(to right, var(--black) 50%, #fff 50%);
 }
 
 .banner-container {
@@ -145,7 +142,7 @@ ul>li {
 
 .banner-title h1 {
   min-width: 575px;
-  background: linear-gradient(to right, var(--black) 50%, #FFF 50%);
+  background: linear-gradient(to right, var(--black) 50%, #fff 50%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
@@ -163,7 +160,7 @@ ul>li {
 }
 
 .banner-content-txt {
-  min-width: 350px;
+  max-width: 350px;
   color: var(--gray);
 }
 
@@ -218,7 +215,7 @@ ul>li {
   max-width: 100%;
 }
 
-.featured>.grid {
+.featured > .grid {
   gap: 30px;
 }
 
@@ -259,7 +256,6 @@ ul>li {
 
 .col-2-right {
   grid-column: 3/4;
-  /* gap: 30px; */
 }
 
 .col-2-right-txt {
@@ -308,7 +304,8 @@ ul>li {
 }
 
 .sociais a:hover {
-  filter: sepia(47%) saturate(3902%) hue-rotate(304deg) brightness(88%) contrast(87%);
+  filter: sepia(47%) saturate(3902%) hue-rotate(304deg) brightness(88%)
+    contrast(87%);
 }
 
 @media screen and (max-width: 1140px) {
@@ -326,7 +323,7 @@ ul>li {
   }
 
   .col-2-right-txt h2 {
-    font: 2.75rem/2.75rem 'Big Shoulders Display', cursive;
+    font: 2.75rem/2.75rem "Big Shoulders Display", cursive;
     margin-bottom: 0;
   }
 
@@ -417,7 +414,7 @@ ul>li {
     flex-direction: column;
   }
 
-  .contato>.cont-row {
+  .contato > .cont-row {
     max-width: 100%;
   }
 
@@ -492,7 +489,7 @@ ul>li {
     background: #fff;
   }
 
-  .banner>.container {
+  .banner > .container {
     display: flex;
     flex-direction: column;
   }
@@ -551,7 +548,7 @@ ul>li {
     padding: 25px 15px;
   }
 
-  .container>.about-row-1 {
+  .container > .about-row-1 {
     grid-template-columns: 1fr;
     gap: 0;
   }
@@ -562,10 +559,9 @@ ul>li {
     gap: 0px;
   }
 
-  .exh-row>.artwork {
+  .exh-row > .artwork {
     margin-bottom: 10px;
   }
-
 
   .footer .container {
     flex-direction: column;
@@ -575,5 +571,12 @@ ul>li {
 
   .sociais {
     padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col-2-right-txt h2 {
+    font: 2.3rem/2.75rem "Big Shoulders Display", cursive;
+    margin-bottom: 0;
   }
 }
