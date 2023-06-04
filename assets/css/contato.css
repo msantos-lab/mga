@@ -31,10 +31,6 @@ label {
   font-weight: bold;
 }
 
-input[type="text"]:focus {
-  border: 5px solid var(--bronze);
-}
-
 #enviar {
   font: var(--btn);
   letter-spacing: 3.7px;

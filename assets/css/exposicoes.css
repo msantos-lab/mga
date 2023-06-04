@@ -40,7 +40,6 @@
 }
 
 /*-------------------- exhibitions-detail -------------------- */
-
 .exhibitions-detail > .grid {
   gap: 30px;
 }
@@ -81,7 +80,6 @@ figure {
 figcaption {
   color: var(--gray-light);
   font-size: 0.875rem;
-  /*14px*/
 }
 
 figure img {
