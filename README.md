@@ -3,9 +3,9 @@
 Este projeto é uma página web para uma Galeria de Arte Moderna fictícia. O objetivo é apresentar a galeria, suas exposições e fornecer informações de contato.
 
 # Tecnologias utilizadas
-+HTML
-+CSS
-+JavaScript
++ HTML
++ CSS
++ JavaScript
 
 # Design
 O design deste projeto foi inspirado no desafio "Modern Art Gallery" do Frontend Mentor. O Frontend Mentor é uma plataforma que oferece desafios de codificação para aprimorar as habilidades de desenvolvimento front-end.
