@@ -4,7 +4,7 @@ Este projeto é uma página web para uma Galeria de Arte Moderna fictícia. O ob
 
 
 ### Screenshot
-!(/assets/images/screenshot.png "Projeto: Modern Art Gallery")
+![](/assets/images/screenshot.png "Projeto: Modern Art Gallery")
 
 ### Tecnologias utilizadas
 + HTML
