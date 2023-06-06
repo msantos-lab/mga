@@ -1,4 +1,4 @@
-
+//_____________ALTERAR CORES BOTOES
 let btn_content = document.querySelector(".btn-content");
 let btn_icon = document.querySelector(".btn-icon");
 
@@ -12,7 +12,7 @@ function bgColorBtnOut() {
     btn_icon.classList.remove("bg-black");
 };
 
-
+//_____________DESTAQUE ITENS MENU
 let menu_path = window.location.pathname.replace("/", "").replace(".html", "");
 let menu = document.querySelectorAll(".menu li");
 
@@ -23,11 +23,10 @@ menu.forEach((item) => {
   }
 });
 
-//              MENU
+//_____________MENU MOBILE
 
 const btnMenu = document.querySelector('[data-menu="button"]');
 const menuMob = document.querySelector('[data-menu="list"]');
-console.log(menuMob)
 
 function ativaMenu() {
   menuMob.classList.toggle("menuMobOn");
