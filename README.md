@@ -2,7 +2,11 @@
 # Modern Art Gallery
 Este projeto é uma página web para uma Galeria de Arte Moderna fictícia. O objetivo é apresentar a galeria, suas exposições e fornecer informações de contato.
 
-### Tecnologias utilizadas
+
+## Screenshot
+![](/assets/images/screenshot.png "Projeto: Modern Art Gallery")
+
+## Tecnologias utilizadas
 + HTML
 + CSS
 + JavaScript
